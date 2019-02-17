@@ -1,9 +1,9 @@
 # create native virtual env
-python -m venv VenvDjango
+python -m venv env
 
 # acitvate env
 source VenvDjango/bin/activate # for linux
-call ".\VenvDjango\Scripts\activate.bat"  # for windows 
+call ".\env\Scripts\activate.bat"  # for windows 
 
 # to create django project
 django-admin startproject project
