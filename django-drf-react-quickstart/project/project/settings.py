@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'leads', # add the leads app
+    'rest_framework' # enable rest framework
 ]
 
 MIDDLEWARE = [

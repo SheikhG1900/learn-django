@@ -1,2 +1,5 @@
 env
 env/*
+**/.coverage
+**/db.sqlite3
+*.pyc
